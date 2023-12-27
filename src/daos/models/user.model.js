@@ -31,6 +31,11 @@ const usersSchema = new mongoose.Schema({
     type: Boolean,
     required: true,
     default: false
+  },
+  isGoogle: {
+    type: Boolean,
+    required: true,
+    default: false
   }
 })
 
